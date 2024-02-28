@@ -10,6 +10,7 @@
 
 
 Use the below code in sonarqube analysis report.
+```sh 
 sonar.projectKey=Ncodeit
 sonar.projectName=Ncodeit
 sonar.projectVersion=2.0
@@ -18,3 +19,4 @@ sonar.binaries=target/classes/com/visualpathit/account/controller/
 sonar.junit.reportsPath=target/surefire-reports
 sonar.jacoco.reportPath=target/jacoco.exec
 sonar.java.binaries=src/com/room/sample
+```
